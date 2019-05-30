@@ -1,0 +1,66 @@
+/*
+ * 全局样式
+ */
+ @import './variables.less';
+ 
+ @header-height: 64px;
+
+ :global {
+   html, body, #app {
+     height: 100%;
+   }
+
+   body {
+     font-family: PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;
+   }
+   
+   a {
+    color: @main-color;
+   }
+
+   .app-root {
+     min-height: 100%;
+     padding-left: 200px;
+     padding-top: @header-height;
+   }
+
+   .app-header {
+     position: fixed;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: @header-height;
+     z-index: 800;
+   }
+
+   .app-menu {
+     position: fixed;
+     left: 0;
+     top: @header-height;
+     width: 200px;
+     height: 100%;
+     overflow: auto;
+     z-index: 800;
+     background: #404040;
+     padding: 10px 0 @header-height + 10px;
+   }
+
+   .app-content {
+     padding: 20px;
+   }
+
+   svg {
+     fill: currentColor;
+   }
+
+  .page-title {
+    font-size: 18px;
+    line-height: 40px;
+    border-bottom: 1px solid #d8d8d8;
+    text-align: left;
+  }
+
+  .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+    padding: 16px 4px;
+  }
+}

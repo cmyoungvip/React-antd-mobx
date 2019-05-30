@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "data": {
+    "pageSize": 10,
+    "pageNo": 1,
+    "itemCount": 2,
+    "items": [{
+      "id": 1,
+      "applyPhoneNum": "15067146597",
+      "name": "杭州顶象科技有限公司是是是是是是杭",
+      "status": 1,
+      "image": "https://cdn.dingxiang-inc.com/images/5b1/5b13ef2d-fb5e-422f-9415-4b52f09a1044.jpg",
+      "previewImage": "https://cdn.dingxiang-inc.com/images/5b1/5b13ef2d-fb5e-422f-9415-4b52f09a1044.jpg",
+      "modifyTime": "2017-11-10 13:11:11"
+      
+    }, {
+      "id": 2,
+      "applyPhoneNum": "15067146598",
+      "name": "北京顶象",
+      "status": 2,
+      "image": "https://cdn.dingxiang-inc.com/images/22f/22fa297e-5d0a-43d0-83c3-c20ce14d66e7.png",
+      "previewImage": "https://cdn.dingxiang-inc.com/images/22f/22fa297e-5d0a-43d0-83c3-c20ce14d66e7.png",
+      "modifyTime": "2017-11-10 13:11:11"
+    }]
+  }
+}

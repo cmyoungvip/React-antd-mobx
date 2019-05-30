@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {     
+      "util/*": ["./src/util/*"],
+      "component/*": ["./src/component/*"],
+      "constant/*": ["./src/constant/*"],}
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "Print to console": {
+    "prefix": "log",
+    "body": [
+      "console.log('$1','$2')"
+    ],
+    "description": "Log output to console"
+  }
+}
